@@ -10,6 +10,19 @@ Students can also make notes related to their study in this application, it is s
 ## Room DataBase:- 
 RoomDatabase provides direct access to the underlying database implementation but you should prefer using Dao classes.
 
+Nested classes
+class	RoomDatabase.Builder<T extends RoomDatabase>
+Builder for RoomDatabase. 
+
+class	RoomDatabase.Callback
+Callback for RoomDatabase. 
+
+enum	RoomDatabase.JournalMode
+Journal modes for SQLite database. 
+
+class	RoomDatabase.MigrationContainer
+A container to hold migrations. 
+
 ## Navigation Component:-  
 Navigation graph: An XML resource that contains all navigation-related information in one centralized location.
 This includes all of the individual content areas within your app, called destinations, as well as the possible paths that a user can take through your app.
