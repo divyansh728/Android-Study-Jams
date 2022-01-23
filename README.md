@@ -13,19 +13,16 @@ RoomDatabase provides direct access to the underlying database implementation bu
 Nested classes
 class	RoomDatabase.Builder<T extends RoomDatabase>
 Builder for RoomDatabase. 
-
 class	RoomDatabase.Callback
 Callback for RoomDatabase. 
-
 enum	RoomDatabase.JournalMode
 Journal modes for SQLite database. 
-
 class	RoomDatabase.MigrationContainer
 A container to hold migrations. 
 
 ## Navigation Component:-  
 Navigation graph: An XML resource that contains all navigation-related information in one centralized location.
-This includes all of the individual content areas within your app, called destinations, as well as the possible paths that a user can take through your app.
+This includes all of the individual content areas within your app, called destinations, as well as the possible paths that a usercan take through your app.
 NavHost: An empty container that displays destinations from your navigation graph. The Navigation component contains a 
 default NavHost implementation, NavHostFragment, that displays fragment destinations.
 NavController: An object that manages app navigation within a NavHost. The NavController orchestrates the swapping of 
